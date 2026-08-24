@@ -31,6 +31,7 @@ def build(private: bool, browser: str, progress_hook=None, pp_hook=None, fmt: st
     o = {
         # The main speed lever: DASH video is thousands of small fragments;
         # pulling 8 at once saturates the link instead of round-tripping serially.
+        # (Not the cause of the 403s — that was a stale yt-dlp. Measured innocent.)
         "concurrent_fragment_downloads": 8,
         # Phone-native by default (see PHONE_FMT) — the quality picker overrides it.
         "format": fmt,
