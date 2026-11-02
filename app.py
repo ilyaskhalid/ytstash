@@ -665,7 +665,7 @@ h1{font-size:clamp(32px,5.6vw,54px);font-weight:700;letter-spacing:-.035em;line-
   <rect x="2.4" y="6.2" width="9.2" height="6" rx="1.6" stroke="currentColor" stroke-width="1.4"/>
   <path d="M4.6 6.2V4.4a2.4 2.4 0 0 1 4.8 0v1.8" stroke="currentColor" stroke-width="1.4"/></svg>
   Runs on your Mac. No account.</span>
- <h1>youtube downloader<br>that just fckn works</h1>
+ <h1>youtube downloader<br>that just works</h1>
  <p class="sub">Paste a link. Full quality, straight from YouTube, in a file your phone plays offline.</p>
  <div class="form">
   <div class="bar">
