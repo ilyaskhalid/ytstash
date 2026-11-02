@@ -23,7 +23,7 @@ Requires macOS, [uv](https://docs.astral.sh/uv/) and ffmpeg.
 
 ```bash
 brew install ffmpeg
-git clone https://github.com/elyesj23/ytstash.git
+git clone https://github.com/ilyaskhalid/ytstash.git
 cd ytstash
 uv run app.py
 ```
