@@ -1,5 +1,7 @@
 # ytstash
 
+[![check](https://github.com/ilyaskhalid/ytstash/actions/workflows/check.yml/badge.svg)](https://github.com/ilyaskhalid/ytstash/actions/workflows/check.yml) ![macOS](https://img.shields.io/badge/platform-macOS-black) ![license](https://img.shields.io/badge/license-MIT-blue)
+
 **A YouTube downloader that just works.** Paste a link, get a full-quality file your iPhone plays offline — on a plane, a train, or hotel wifi that gave up.
 
 ![screenshot](docs/screenshot.jpg)
