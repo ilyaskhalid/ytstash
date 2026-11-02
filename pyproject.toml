@@ -1,5 +1,5 @@
 [project]
-name = "youtube-travel-downloader-app"
+name = "ytstash"
 version = "0.1.0"
 description = "A local YouTube downloader for offline travel — paste a link, get a full-quality file your iPhone plays natively."
 readme = "README.md"

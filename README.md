@@ -1,4 +1,4 @@
-# youtube travel downloader
+# ytstash
 
 **A YouTube downloader that just works.** Paste a link, get a full-quality file your iPhone plays offline — on a plane, a train, or hotel wifi that gave up.
 
@@ -23,8 +23,8 @@ Requires macOS, [uv](https://docs.astral.sh/uv/) and ffmpeg.
 
 ```bash
 brew install ffmpeg
-git clone https://github.com/elyesj23/youtube-travel-downloader.git
-cd youtube-travel-downloader
+git clone https://github.com/elyesj23/ytstash.git
+cd ytstash
 uv run app.py
 ```
 
