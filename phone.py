@@ -92,7 +92,7 @@ def main(urls: list[str]) -> int:
     try:
         with YoutubeDL(build(MERGE_FMT if merge else FLAT_FMT)) as y:
             y.download(urls)
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001 — print it, whatever it is
         print(f"\nfailed: {str(e).strip().splitlines()[-1]}")
         if "Sign in to confirm" in str(e) and not os.path.exists(COOKIES):
             print(HELP)

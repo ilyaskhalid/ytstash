@@ -11,3 +11,5 @@ wheels/
 
 # A live Google login in plaintext — must never be committed.
 cookies.txt
+.update-check
+.DS_Store

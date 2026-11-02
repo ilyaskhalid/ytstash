@@ -1,10 +1,12 @@
 [project]
 name = "youtube-travel-downloader-app"
 version = "0.1.0"
-description = "Add your description here"
+description = "A local YouTube downloader for offline travel — paste a link, get a full-quality file your iPhone plays natively."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "flask>=3.1.3",
+    "mutagen>=1.48.1",
+    "pymobiledevice3>=11.20.2",
     "yt-dlp>=2026.8.19",
 ]
